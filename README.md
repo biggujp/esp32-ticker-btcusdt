@@ -13,7 +13,7 @@ This repository contains the code for Ticker Price of cryptocurrency BTCUSDT fro
 
   ```sh
   SSID = "INSERT YOUR NAME WIFI"
-  SSI_PASSWORD = "INSERT YOUR WIFIPASSWORD"
+  SSID_PASSWORD = "INSERT YOUR WIFIPASSWORD"
   ```
 
 - 2nd Line edit : TOKEN of  LineNotify
