@@ -2,7 +2,7 @@ import time
 import urequests
 
 SSID = "INSERT YOUR NAME WIFI"
-SSI_PASSWORD = "INSERT YOUR WIFIPASSWORD"
+SSID_PASSWORD = "INSERT YOUR WIFIPASSWORD"
 
 def do_connect():
     import network
@@ -10,7 +10,7 @@ def do_connect():
     if not sta_if.isconnected():
         print('connecting to network...')
         sta_if.active(True)
-        sta_if.connect(SSID, SSI_PASSWORD)
+        sta_if.connect(SSID, SSID_PASSWORD)
         while not sta_if.isconnected():
             pass
     print('Connected! Network config:', sta_if.ifconfig())
